@@ -1,0 +1,169 @@
+/* ============================= */
+/* THEME BANK OF AFRICA - GLOBAL */
+/* ============================= */
+
+:root {
+    --boa-blue: #003a8f;
+    --boa-dark: #002b6a;
+    --boa-gold: #c9a14a;
+    --boa-light: #f5f7fa;
+}
+
+/* GLOBAL */
+body {
+    background-color: var(--boa-light);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ============================= */
+/* NAVBAR */
+/* ============================= */
+
+.navbar.bg-primary {
+    background: linear-gradient(90deg, var(--boa-blue), var(--boa-dark)) !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+
+/* ============================= */
+/* CARDS */
+/* ============================= */
+
+.card {
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.card-title {
+    color: var(--boa-blue);
+    font-weight: 700;
+}
+
+/* STAT CARDS */
+.card.bg-primary {
+    background: linear-gradient(135deg, var(--boa-blue), var(--boa-dark)) !important;
+}
+
+.card.bg-success {
+    background: linear-gradient(135deg, #198754, #146c43) !important;
+}
+
+.card.bg-info {
+    background: linear-gradient(135deg, #0dcaf0, #0a9fc0) !important;
+}
+
+.card.bg-warning {
+    background: linear-gradient(135deg, var(--boa-gold), #b8923e) !important;
+}
+
+/* ============================= */
+/* BUTTONS */
+/* ============================= */
+
+.btn-primary {
+    background-color: var(--boa-blue);
+    border-color: var(--boa-blue);
+}
+
+.btn-primary:hover {
+    background-color: var(--boa-dark);
+    border-color: var(--boa-dark);
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+/* GOLD ACTION BUTTON */
+.btn-gold {
+    background-color: var(--boa-gold);
+    color: #ffffff;
+    font-weight: 700;
+    border: none;
+}
+
+.btn-gold:hover {
+    background-color: #b8923e;
+    color: #ffffff;
+}
+
+/* OUTLINE */
+.btn-outline-primary {
+    color: var(--boa-blue);
+    border-color: var(--boa-blue);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--boa-blue);
+    color: #fff;
+}
+
+/* ============================= */
+/* TABLE */
+/* ============================= */
+
+.table thead,
+.table-dark {
+    background-color: var(--boa-blue) !important;
+    color: #ffffff;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 58, 143, 0.05);
+}
+
+/* ============================= */
+/* BADGES (RISQUE) */
+/* ============================= */
+
+.badge-risk-low {
+    background-color: #2ecc71;
+}
+
+.badge-risk-medium {
+    background-color: #f1c40f;
+    color: #000;
+}
+
+.badge-risk-high {
+    background-color: #e74c3c;
+}
+
+/* ============================= */
+/* ALERTS */
+/* ============================= */
+
+.alert-success {
+    border-left: 6px solid #198754;
+}
+
+.alert-danger {
+    border-left: 6px solid #dc3545;
+}
+
+/* ============================= */
+/* FOOTER / PAGINATION */
+/* ============================= */
+
+.card-footer {
+    background-color: #f8f9fa;
+}
+
+/* ============================= */
+/* ICONS & TITLES */
+/* ============================= */
+
+.bi {
+    vertical-align: -0.1em;
+}
+
+h3, h5 {
+    font-weight: 700;
+    color: var(--boa-blue);
+}

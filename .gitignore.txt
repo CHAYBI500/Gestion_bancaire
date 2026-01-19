@@ -1,0 +1,15 @@
+# Eclipse / Java
+/bin/
+/build/
+/target/
+.project
+.classpath
+.settings/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Logs
+*.log
